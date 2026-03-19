@@ -1,0 +1,210 @@
+<svg viewBox="0 0 900 640" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, monospace">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#161b22;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="coreGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e05c2c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c0392b;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="llmGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7c3aed;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5b21b6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="channelGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0891b2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0e7490;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="skillGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#059669;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#047857;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="memGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d97706;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b45309;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="deployGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4f46e5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3730a3;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="ecoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d9488;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f766e;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <marker id="arrowGray" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#4a5568"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="640" fill="url(#bgGrad)" rx="12"/>
+  <rect width="900" height="640" fill="none" stroke="#30363d" stroke-width="1" rx="12"/>
+
+  <!-- Title -->
+  <text x="450" y="36" text-anchor="middle" fill="#f0f6fc" font-size="15" font-weight="700" letter-spacing="1">🦞 OpenClaw Ecosystem Map</text>
+  <text x="450" y="54" text-anchor="middle" fill="#8b949e" font-size="10">March 2026 · 247K Stars · 13,729 Skills · 10+ Channels</text>
+
+  <!-- LLM PROVIDERS -->
+  <rect x="30" y="72" width="172" height="160" rx="8" fill="#161b22" stroke="#7c3aed" stroke-width="1.5"/>
+  <rect x="30" y="72" width="172" height="26" rx="8" fill="url(#llmGrad)"/>
+  <rect x="30" y="90" width="172" height="8" fill="url(#llmGrad)"/>
+  <text x="116" y="90" text-anchor="middle" fill="#fff" font-size="11" font-weight="700">🤖 LLM Providers</text>
+  <text x="116" y="113" text-anchor="middle" fill="#c9d1d9" font-size="10">Claude (Anthropic)</text>
+  <text x="116" y="129" text-anchor="middle" fill="#c9d1d9" font-size="10">GPT-5 (OpenAI)</text>
+  <text x="116" y="145" text-anchor="middle" fill="#c9d1d9" font-size="10">Gemini 2.5 (Google)</text>
+  <text x="116" y="161" text-anchor="middle" fill="#c9d1d9" font-size="10">Ollama (Local / Private)</text>
+  <text x="116" y="177" text-anchor="middle" fill="#c9d1d9" font-size="10">OpenRouter (Unified)</text>
+  <text x="116" y="197" text-anchor="middle" fill="#8b949e" font-size="9">Model-agnostic · 22+ providers</text>
+  <text x="116" y="211" text-anchor="middle" fill="#8b949e" font-size="9">Local inference supported</text>
+
+  <!-- CHANNELS -->
+  <rect x="698" y="72" width="172" height="212" rx="8" fill="#161b22" stroke="#0891b2" stroke-width="1.5"/>
+  <rect x="698" y="72" width="172" height="26" rx="8" fill="url(#channelGrad)"/>
+  <rect x="698" y="90" width="172" height="8" fill="url(#channelGrad)"/>
+  <text x="784" y="90" text-anchor="middle" fill="#fff" font-size="11" font-weight="700">📡 Channels</text>
+  <text x="784" y="113" text-anchor="middle" fill="#c9d1d9" font-size="10">WhatsApp (Baileys)</text>
+  <text x="784" y="129" text-anchor="middle" fill="#c9d1d9" font-size="10">Telegram</text>
+  <text x="784" y="145" text-anchor="middle" fill="#c9d1d9" font-size="10">Discord</text>
+  <text x="784" y="161" text-anchor="middle" fill="#c9d1d9" font-size="10">Slack / Teams</text>
+  <text x="784" y="177" text-anchor="middle" fill="#c9d1d9" font-size="10">iMessage / Signal</text>
+  <text x="784" y="193" text-anchor="middle" fill="#c9d1d9" font-size="10">SMS (Twilio)</text>
+  <text x="784" y="209" text-anchor="middle" fill="#c9d1d9" font-size="10">Web Widget</text>
+  <text x="784" y="228" text-anchor="middle" fill="#8b949e" font-size="9">10+ platforms simultaneously</text>
+  <text x="784" y="241" text-anchor="middle" fill="#8b949e" font-size="9">Per-channel permissions</text>
+  <text x="784" y="254" text-anchor="middle" fill="#8b949e" font-size="9">Voice (experimental)</text>
+
+  <!-- GATEWAY -->
+  <rect x="308" y="96" width="284" height="138" rx="10" fill="#1a0a0a" stroke="#e05c2c" stroke-width="2.5" filter="url(#glow)"/>
+  <rect x="308" y="96" width="284" height="33" rx="10" fill="url(#coreGrad)"/>
+  <rect x="308" y="118" width="284" height="11" fill="url(#coreGrad)"/>
+  <text x="450" y="119" text-anchor="middle" fill="#fff" font-size="13" font-weight="700">🦞 OpenClaw Gateway</text>
+  <text x="450" y="143" text-anchor="middle" fill="#fca5a5" font-size="10">WebSocket Control Plane · Port 18789</text>
+  <text x="450" y="159" text-anchor="middle" fill="#c9d1d9" font-size="10">Session Manager · Channel Router · Agent Runtime</text>
+  <text x="450" y="175" text-anchor="middle" fill="#c9d1d9" font-size="10">Context Engine · Memory System · Tool Orchestration</text>
+  <text x="450" y="194" text-anchor="middle" fill="#8b949e" font-size="9">TypeScript · Local-first · Model-agnostic · Self-hosted</text>
+  <text x="450" y="208" text-anchor="middle" fill="#8b949e" font-size="9">v1.9+ · MIT License · OpenClaw Foundation</text>
+
+  <!-- SKILLS / PLUGINS / MCP -->
+  <rect x="268" y="308" width="364" height="160" rx="8" fill="#161b22" stroke="#059669" stroke-width="1.5"/>
+  <rect x="268" y="308" width="364" height="26" rx="8" fill="url(#skillGrad)"/>
+  <rect x="268" y="326" width="364" height="8" fill="url(#skillGrad)"/>
+  <text x="450" y="326" text-anchor="middle" fill="#fff" font-size="11" font-weight="700">🔧 Skills · Plugins · MCP Integrations</text>
+
+  <text x="338" y="352" text-anchor="middle" fill="#6ee7b7" font-size="10" font-weight="600">Skills (SKILL.md)</text>
+  <text x="338" y="367" text-anchor="middle" fill="#c9d1d9" font-size="9">ClawHub · 13,729 skills</text>
+  <text x="338" y="381" text-anchor="middle" fill="#c9d1d9" font-size="9">playwright-mcp</text>
+  <text x="338" y="395" text-anchor="middle" fill="#c9d1d9" font-size="9">agentmail · notion</text>
+  <text x="338" y="409" text-anchor="middle" fill="#c9d1d9" font-size="9">github · linear</text>
+  <text x="338" y="425" text-anchor="middle" fill="#8b949e" font-size="9">Zero-code · Markdown</text>
+  <text x="338" y="439" text-anchor="middle" fill="#8b949e" font-size="9">skill-guard pre-scan</text>
+  <text x="338" y="453" text-anchor="middle" fill="#8b949e" font-size="9">1M+ monthly installs</text>
+
+  <line x1="390" y1="346" x2="390" y2="460" stroke="#30363d" stroke-width="1"/>
+  <line x1="512" y1="346" x2="512" y2="460" stroke="#30363d" stroke-width="1"/>
+
+  <text x="451" y="352" text-anchor="middle" fill="#6ee7b7" font-size="10" font-weight="600">Plugins (npm)</text>
+  <text x="451" y="367" text-anchor="middle" fill="#c9d1d9" font-size="9">TypeScript packages</text>
+  <text x="451" y="381" text-anchor="middle" fill="#c9d1d9" font-size="9">SecureClaw</text>
+  <text x="451" y="395" text-anchor="middle" fill="#c9d1d9" font-size="9">cost-tracker</text>
+  <text x="451" y="409" text-anchor="middle" fill="#c9d1d9" font-size="9">ClawRouter</text>
+  <text x="451" y="425" text-anchor="middle" fill="#8b949e" font-size="9">Full lifecycle hooks</text>
+  <text x="451" y="439" text-anchor="middle" fill="#8b949e" font-size="9">Deep system access</text>
+  <text x="451" y="453" text-anchor="middle" fill="#8b949e" font-size="9">ClawHub CLI publish</text>
+
+  <text x="564" y="352" text-anchor="middle" fill="#6ee7b7" font-size="10" font-weight="600">MCP Servers</text>
+  <text x="564" y="367" text-anchor="middle" fill="#c9d1d9" font-size="9">13,000+ servers</text>
+  <text x="564" y="381" text-anchor="middle" fill="#c9d1d9" font-size="9">GitHub · Slack</text>
+  <text x="564" y="395" text-anchor="middle" fill="#c9d1d9" font-size="9">filesystem · memory</text>
+  <text x="564" y="409" text-anchor="middle" fill="#c9d1d9" font-size="9">brave-search · fetch</text>
+  <text x="564" y="425" text-anchor="middle" fill="#8b949e" font-size="9">Separate process</text>
+  <text x="564" y="439" text-anchor="middle" fill="#8b949e" font-size="9">Language-agnostic</text>
+  <text x="564" y="453" text-anchor="middle" fill="#8b949e" font-size="9">mcporter bridge</text>
+
+  <!-- MEMORY -->
+  <rect x="30" y="308" width="200" height="160" rx="8" fill="#161b22" stroke="#d97706" stroke-width="1.5"/>
+  <rect x="30" y="308" width="200" height="26" rx="8" fill="url(#memGrad)"/>
+  <rect x="30" y="326" width="200" height="8" fill="url(#memGrad)"/>
+  <text x="130" y="326" text-anchor="middle" fill="#fff" font-size="11" font-weight="700">🧠 Memory System</text>
+  <text x="130" y="351" text-anchor="middle" fill="#fcd34d" font-size="10" font-weight="600">Built-in (Markdown)</text>
+  <text x="130" y="366" text-anchor="middle" fill="#c9d1d9" font-size="9">MEMORY.md · SOUL.md</text>
+  <text x="130" y="380" text-anchor="middle" fill="#c9d1d9" font-size="9">AGENTS.md (immutable)</text>
+  <text x="130" y="394" text-anchor="middle" fill="#c9d1d9" font-size="9">Daily episodic logs</text>
+  <text x="130" y="408" text-anchor="middle" fill="#c9d1d9" font-size="9">BM25 + vector retrieval</text>
+  <line x1="50" y1="418" x2="210" y2="418" stroke="#30363d" stroke-width="1"/>
+  <text x="130" y="432" text-anchor="middle" fill="#fcd34d" font-size="10" font-weight="600">External</text>
+  <text x="130" y="447" text-anchor="middle" fill="#c9d1d9" font-size="9">Supermemory · Graphiti</text>
+  <text x="130" y="461" text-anchor="middle" fill="#c9d1d9" font-size="9">MemOS · mem0</text>
+
+  <!-- DEPLOYMENT — indigo, distinct from cyan Channels -->
+  <rect x="670" y="308" width="200" height="160" rx="8" fill="#161b22" stroke="#4f46e5" stroke-width="1.5"/>
+  <rect x="670" y="308" width="200" height="26" rx="8" fill="url(#deployGrad)"/>
+  <rect x="670" y="326" width="200" height="8" fill="url(#deployGrad)"/>
+  <text x="770" y="326" text-anchor="middle" fill="#fff" font-size="11" font-weight="700">☁️ Deployment</text>
+  <text x="770" y="351" text-anchor="middle" fill="#a5b4fc" font-size="10" font-weight="600">Self-Hosted</text>
+  <text x="770" y="366" text-anchor="middle" fill="#c9d1d9" font-size="9">Docker / NixOS / VPS</text>
+  <text x="770" y="380" text-anchor="middle" fill="#c9d1d9" font-size="9">Raspberry Pi / Mac Mini</text>
+  <text x="770" y="394" text-anchor="middle" fill="#c9d1d9" font-size="9">Hetzner / DO / Vultr</text>
+  <text x="770" y="408" text-anchor="middle" fill="#c9d1d9" font-size="9">openclaw-ansible</text>
+  <line x1="690" y1="418" x2="850" y2="418" stroke="#30363d" stroke-width="1"/>
+  <text x="770" y="432" text-anchor="middle" fill="#a5b4fc" font-size="10" font-weight="600">Managed</text>
+  <text x="770" y="447" text-anchor="middle" fill="#c9d1d9" font-size="9">ClawHost · Tinkerclaw</text>
+  <text x="770" y="461" text-anchor="middle" fill="#c9d1d9" font-size="9">DO 1-Click · OC Launch</text>
+
+  <!-- ALTERNATIVES STRIP -->
+  <rect x="30" y="484" width="840" height="52" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1.5"/>
+  <text x="450" y="502" text-anchor="middle" fill="#8b949e" font-size="10" font-weight="600">🏗️ Alternative Implementations</text>
+  <text x="105" y="522" text-anchor="middle" fill="#c9d1d9" font-size="9">ZeroClaw (Rust · 3.4MB)</text>
+  <text x="231" y="522" text-anchor="middle" fill="#c9d1d9" font-size="9">NanoClaw (Python · sandboxed)</text>
+  <text x="360" y="522" text-anchor="middle" fill="#c9d1d9" font-size="9">Moltis (Rust · 1 binary)</text>
+  <text x="480" y="522" text-anchor="middle" fill="#c9d1d9" font-size="9">PicoClaw (Go · &lt;10MB)</text>
+  <text x="607" y="522" text-anchor="middle" fill="#c9d1d9" font-size="9">Nanobot (Python · 4K LOC)</text>
+  <text x="730" y="522" text-anchor="middle" fill="#c9d1d9" font-size="9">NullClaw (Zig · 1MB)</text>
+  <text x="450" y="532" text-anchor="middle" fill="#484f58" font-size="7.5">MimiClaw (C · ESP32) · ClawGo (Go · headless) · Carapace (compliance-first)</text>
+
+  <!-- AGENT ECOSYSTEM STRIP -->
+  <rect x="30" y="549" width="840" height="59" rx="8" fill="#0d1f1e" stroke="#0d9488" stroke-width="1.5"/>
+  <rect x="30" y="549" width="840" height="22" rx="8" fill="url(#ecoGrad)"/>
+  <rect x="30" y="561" width="840" height="10" fill="url(#ecoGrad)"/>
+  <text x="450" y="563" text-anchor="middle" fill="#fff" font-size="10" font-weight="700">🌍 Agent Ecosystem &amp; Platforms</text>
+  <text x="108" y="582" text-anchor="middle" fill="#99f6e4" font-size="9" font-weight="600">Social / Discovery</text>
+  <text x="108" y="596" text-anchor="middle" fill="#c9d1d9" font-size="9">Moltbook · Clawk</text>
+  <line x1="186" y1="573" x2="186" y2="603" stroke="#0f766e" stroke-width="1"/>
+  <text x="272" y="582" text-anchor="middle" fill="#99f6e4" font-size="9" font-weight="600">A2A Protocols</text>
+  <text x="272" y="596" text-anchor="middle" fill="#c9d1d9" font-size="9">A2A Spec · ACP</text>
+  <line x1="358" y1="573" x2="358" y2="603" stroke="#0f766e" stroke-width="1"/>
+  <text x="450" y="582" text-anchor="middle" fill="#99f6e4" font-size="9" font-weight="600">Task Markets</text>
+  <text x="450" y="596" text-anchor="middle" fill="#c9d1d9" font-size="9">AgentDo</text>
+  <line x1="542" y1="573" x2="542" y2="603" stroke="#0f766e" stroke-width="1"/>
+  <text x="641" y="582" text-anchor="middle" fill="#99f6e4" font-size="9" font-weight="600">Security</text>
+  <text x="641" y="596" text-anchor="middle" fill="#c9d1d9" font-size="9">SecureClaw · skill-guard · OWASP ASI</text>
+  <line x1="740" y1="573" x2="740" y2="603" stroke="#0f766e" stroke-width="1"/>
+  <text x="800" y="582" text-anchor="middle" fill="#99f6e4" font-size="9" font-weight="600">UIs</text>
+  <text x="800" y="596" text-anchor="middle" fill="#c9d1d9" font-size="9">Studio · ClawDash</text>
+
+  <!-- ARROWS -->
+  <line x1="202" y1="152" x2="306" y2="165" stroke="#7c3aed" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arrowGray)"/>
+  <line x1="592" y1="165" x2="696" y2="165" stroke="#0891b2" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arrowGray)"/>
+  <line x1="450" y1="234" x2="450" y2="306" stroke="#059669" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arrowGray)"/>
+  <line x1="358" y1="234" x2="205" y2="306" stroke="#d97706" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arrowGray)"/>
+  <line x1="542" y1="234" x2="708" y2="306" stroke="#4f46e5" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arrowGray)"/>
+
+  <!-- Arrow labels -->
+  <rect x="210" y="150" width="52" height="14" rx="3" fill="#1a0a2e"/>
+  <text x="236" y="161" text-anchor="middle" fill="#a78bfa" font-size="8">inference</text>
+  <rect x="600" y="154" width="46" height="14" rx="3" fill="#0a1a2a"/>
+  <text x="623" y="165" text-anchor="middle" fill="#7dd3fc" font-size="8">messages</text>
+  <rect x="456" y="260" width="38" height="14" rx="3" fill="#0a1a0a"/>
+  <text x="475" y="271" text-anchor="middle" fill="#6ee7b7" font-size="8">invokes</text>
+  <rect x="228" y="267" width="50" height="14" rx="3" fill="#1a1000"/>
+  <text x="253" y="278" text-anchor="middle" fill="#fcd34d" font-size="8">reads/writes</text>
+  <rect x="592" y="267" width="38" height="14" rx="3" fill="#0a0a2a"/>
+  <text x="611" y="278" text-anchor="middle" fill="#a5b4fc" font-size="8">runs on</text>
+</svg>
