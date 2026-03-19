@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/ecosystem-map.svg" alt="OpenClaw Ecosystem Map" width="100%"/>
+<img src="ecosystem-map.svg" alt="OpenClaw Ecosystem Map" width="100%"/>
 
 # 🦞 Awesome OpenClaw
 
@@ -259,7 +259,7 @@ Each connected messaging platform is a **channel** with its own context namespac
 
 ```bash
 # Configure a primary and fallback model
-openclaw config set model.primary "claude-sonnet-4-20260301"
+openclaw config set model.primary "Claude Sonnet 4.6"
 openclaw config set model.fallback "gemini-2.5-flash"
 openclaw config set model.coding "gpt-5"
 

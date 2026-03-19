@@ -28,7 +28,7 @@ assignees: []
 
 - [ ] I have personally used or thoroughly reviewed this resource
 - [ ] This is not already listed in the README (I searched first)
-- [ ] If it's a skill: I have reviewed the source code and it passes the [Skill Vetting Checklist](../../README.md#skill-vetting-checklist)
+- [ ] If it's a skill: I have reviewed the source code and it passes the [Skill Vetting Checklist](README.md#skill-vetting-checklist)
 - [ ] If it's a paid product: it has a meaningful free tier or is genuinely best-in-class
 - [ ] My description answers: what is it, who is it for, why does it matter
 
