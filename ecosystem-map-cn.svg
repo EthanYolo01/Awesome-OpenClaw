@@ -1,0 +1,213 @@
+<svg viewBox="0 0 900 640" xmlns="http://www.w3.org/2000/svg" font-family="'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#161b22;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="coreGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e05c2c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c0392b;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="llmGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7c3aed;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5b21b6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="channelGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0891b2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0e7490;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="skillGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#059669;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#047857;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="memGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d97706;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b45309;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="deployGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4f46e5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3730a3;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="ecoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d9488;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f766e;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <marker id="arrowGray" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#4a5568"/>
+    </marker>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="900" height="640" fill="url(#bgGrad)" rx="12"/>
+  <rect width="900" height="640" fill="none" stroke="#30363d" stroke-width="1" rx="12"/>
+
+  <!-- 标题 -->
+  <text x="450" y="36" text-anchor="middle" fill="#f0f6fc" font-size="15" font-weight="700" letter-spacing="1">🦞 OpenClaw 生态系统全景图</text>
+  <text x="450" y="54" text-anchor="middle" fill="#8b949e" font-size="10">2026年3月 · 247K Stars · 13,729 个 Skills · 支持 10+ 消息平台</text>
+
+  <!-- LLM 提供商 -->
+  <rect x="30" y="72" width="172" height="160" rx="8" fill="#161b22" stroke="#7c3aed" stroke-width="1.5"/>
+  <rect x="30" y="72" width="172" height="26" rx="8" fill="url(#llmGrad)"/>
+  <rect x="30" y="90" width="172" height="8" fill="url(#llmGrad)"/>
+  <text x="116" y="90" text-anchor="middle" fill="#fff" font-size="11" font-weight="700">🤖 LLM 模型提供商</text>
+  <text x="116" y="113" text-anchor="middle" fill="#c9d1d9" font-size="10">Claude（Anthropic）</text>
+  <text x="116" y="129" text-anchor="middle" fill="#c9d1d9" font-size="10">GPT-5（OpenAI）</text>
+  <text x="116" y="145" text-anchor="middle" fill="#c9d1d9" font-size="10">Gemini 2.5（Google）</text>
+  <text x="116" y="161" text-anchor="middle" fill="#c9d1d9" font-size="10">Ollama（本地 / 私有）</text>
+  <text x="116" y="177" text-anchor="middle" fill="#c9d1d9" font-size="10">OpenRouter（统一网关）</text>
+  <text x="116" y="197" text-anchor="middle" fill="#8b949e" font-size="9">模型无关 · 支持 22+ 提供商</text>
+  <text x="116" y="211" text-anchor="middle" fill="#8b949e" font-size="9">支持本地推理 · 数据不出境</text>
+
+  <!-- 平台频道 -->
+  <rect x="698" y="72" width="172" height="212" rx="8" fill="#161b22" stroke="#0891b2" stroke-width="1.5"/>
+  <rect x="698" y="72" width="172" height="26" rx="8" fill="url(#channelGrad)"/>
+  <rect x="698" y="90" width="172" height="8" fill="url(#channelGrad)"/>
+  <text x="784" y="90" text-anchor="middle" fill="#fff" font-size="11" font-weight="700">📡 平台频道</text>
+  <text x="784" y="113" text-anchor="middle" fill="#c9d1d9" font-size="10">WhatsApp（Baileys）</text>
+  <text x="784" y="129" text-anchor="middle" fill="#c9d1d9" font-size="10">Telegram</text>
+  <text x="784" y="145" text-anchor="middle" fill="#c9d1d9" font-size="10">Discord</text>
+  <text x="784" y="161" text-anchor="middle" fill="#c9d1d9" font-size="10">Slack / Teams</text>
+  <text x="784" y="177" text-anchor="middle" fill="#c9d1d9" font-size="10">iMessage / Signal</text>
+  <text x="784" y="193" text-anchor="middle" fill="#c9d1d9" font-size="10">短信（Twilio）</text>
+  <text x="784" y="209" text-anchor="middle" fill="#c9d1d9" font-size="10">网页挂件</text>
+  <text x="784" y="228" text-anchor="middle" fill="#8b949e" font-size="9">10+ 平台可同时运行</text>
+  <text x="784" y="241" text-anchor="middle" fill="#8b949e" font-size="9">频道级权限隔离</text>
+  <text x="784" y="254" text-anchor="middle" fill="#8b949e" font-size="9">语音频道（实验性）</text>
+
+  <!-- 核心网关 -->
+  <rect x="308" y="96" width="284" height="138" rx="10" fill="#1a0a0a" stroke="#e05c2c" stroke-width="2.5" filter="url(#glow)"/>
+  <rect x="308" y="96" width="284" height="33" rx="10" fill="url(#coreGrad)"/>
+  <rect x="308" y="118" width="284" height="11" fill="url(#coreGrad)"/>
+  <text x="450" y="119" text-anchor="middle" fill="#fff" font-size="13" font-weight="700">🦞 OpenClaw 核心网关</text>
+  <text x="450" y="143" text-anchor="middle" fill="#fca5a5" font-size="10">WebSocket 控制平面 · 端口 18789</text>
+  <text x="450" y="159" text-anchor="middle" fill="#c9d1d9" font-size="10">会话管理 · 频道路由 · Agent 运行时</text>
+  <text x="450" y="175" text-anchor="middle" fill="#c9d1d9" font-size="10">上下文引擎 · 记忆系统 · 工具编排</text>
+  <text x="450" y="194" text-anchor="middle" fill="#8b949e" font-size="9">TypeScript · 本地优先 · 模型无关 · 自托管</text>
+  <text x="450" y="208" text-anchor="middle" fill="#8b949e" font-size="9">v1.9+ · MIT 许可证 · OpenClaw Foundation</text>
+
+  <!-- Skills / Plugins / MCP -->
+  <rect x="268" y="308" width="364" height="160" rx="8" fill="#161b22" stroke="#059669" stroke-width="1.5"/>
+  <rect x="268" y="308" width="364" height="26" rx="8" fill="url(#skillGrad)"/>
+  <rect x="268" y="326" width="364" height="8" fill="url(#skillGrad)"/>
+  <text x="450" y="326" text-anchor="middle" fill="#fff" font-size="11" font-weight="700">🔧 Skills · 插件 · MCP 集成</text>
+
+  <!-- Skills 列 -->
+  <text x="338" y="352" text-anchor="middle" fill="#6ee7b7" font-size="10" font-weight="600">Skills（SKILL.md）</text>
+  <text x="338" y="367" text-anchor="middle" fill="#c9d1d9" font-size="9">ClawHub · 13,729 个</text>
+  <text x="338" y="381" text-anchor="middle" fill="#c9d1d9" font-size="9">playwright-mcp</text>
+  <text x="338" y="395" text-anchor="middle" fill="#c9d1d9" font-size="9">agentmail · notion</text>
+  <text x="338" y="409" text-anchor="middle" fill="#c9d1d9" font-size="9">github · linear</text>
+  <text x="338" y="425" text-anchor="middle" fill="#8b949e" font-size="9">零代码 · Markdown 声明</text>
+  <text x="338" y="439" text-anchor="middle" fill="#8b949e" font-size="9">skill-guard 安全预扫描</text>
+  <text x="338" y="453" text-anchor="middle" fill="#8b949e" font-size="9">月安装量超 100 万次</text>
+
+  <line x1="390" y1="346" x2="390" y2="460" stroke="#30363d" stroke-width="1"/>
+  <line x1="512" y1="346" x2="512" y2="460" stroke="#30363d" stroke-width="1"/>
+
+  <!-- 插件列 -->
+  <text x="451" y="352" text-anchor="middle" fill="#6ee7b7" font-size="10" font-weight="600">插件（npm 包）</text>
+  <text x="451" y="367" text-anchor="middle" fill="#c9d1d9" font-size="9">TypeScript 包</text>
+  <text x="451" y="381" text-anchor="middle" fill="#c9d1d9" font-size="9">SecureClaw</text>
+  <text x="451" y="395" text-anchor="middle" fill="#c9d1d9" font-size="9">cost-tracker</text>
+  <text x="451" y="409" text-anchor="middle" fill="#c9d1d9" font-size="9">ClawRouter</text>
+  <text x="451" y="425" text-anchor="middle" fill="#8b949e" font-size="9">完整生命周期钩子</text>
+  <text x="451" y="439" text-anchor="middle" fill="#8b949e" font-size="9">深度系统访问权限</text>
+  <text x="451" y="453" text-anchor="middle" fill="#8b949e" font-size="9">ClawHub CLI 发布</text>
+
+  <!-- MCP 列 -->
+  <text x="564" y="352" text-anchor="middle" fill="#6ee7b7" font-size="10" font-weight="600">MCP 服务器</text>
+  <text x="564" y="367" text-anchor="middle" fill="#c9d1d9" font-size="9">13,000+ 个服务器</text>
+  <text x="564" y="381" text-anchor="middle" fill="#c9d1d9" font-size="9">GitHub · Slack</text>
+  <text x="564" y="395" text-anchor="middle" fill="#c9d1d9" font-size="9">filesystem · memory</text>
+  <text x="564" y="409" text-anchor="middle" fill="#c9d1d9" font-size="9">brave-search · fetch</text>
+  <text x="564" y="425" text-anchor="middle" fill="#8b949e" font-size="9">独立进程运行</text>
+  <text x="564" y="439" text-anchor="middle" fill="#8b949e" font-size="9">语言无关</text>
+  <text x="564" y="453" text-anchor="middle" fill="#8b949e" font-size="9">mcporter 桥接</text>
+
+  <!-- 记忆系统 -->
+  <rect x="30" y="308" width="200" height="160" rx="8" fill="#161b22" stroke="#d97706" stroke-width="1.5"/>
+  <rect x="30" y="308" width="200" height="26" rx="8" fill="url(#memGrad)"/>
+  <rect x="30" y="326" width="200" height="8" fill="url(#memGrad)"/>
+  <text x="130" y="326" text-anchor="middle" fill="#fff" font-size="11" font-weight="700">🧠 记忆系统</text>
+  <text x="130" y="351" text-anchor="middle" fill="#fcd34d" font-size="10" font-weight="600">内置记忆（Markdown）</text>
+  <text x="130" y="366" text-anchor="middle" fill="#c9d1d9" font-size="9">MEMORY.md · SOUL.md</text>
+  <text x="130" y="380" text-anchor="middle" fill="#c9d1d9" font-size="9">AGENTS.md（不可覆盖）</text>
+  <text x="130" y="394" text-anchor="middle" fill="#c9d1d9" font-size="9">每日情节日志</text>
+  <text x="130" y="408" text-anchor="middle" fill="#c9d1d9" font-size="9">BM25 + 向量检索</text>
+  <line x1="50" y1="418" x2="210" y2="418" stroke="#30363d" stroke-width="1"/>
+  <text x="130" y="432" text-anchor="middle" fill="#fcd34d" font-size="10" font-weight="600">外部记忆扩展</text>
+  <text x="130" y="447" text-anchor="middle" fill="#c9d1d9" font-size="9">Supermemory · Graphiti</text>
+  <text x="130" y="461" text-anchor="middle" fill="#c9d1d9" font-size="9">MemOS · mem0</text>
+
+  <!-- 部署 — 靛蓝色，与青色频道区分 -->
+  <rect x="670" y="308" width="200" height="160" rx="8" fill="#161b22" stroke="#4f46e5" stroke-width="1.5"/>
+  <rect x="670" y="308" width="200" height="26" rx="8" fill="url(#deployGrad)"/>
+  <rect x="670" y="326" width="200" height="8" fill="url(#deployGrad)"/>
+  <text x="770" y="326" text-anchor="middle" fill="#fff" font-size="11" font-weight="700">☁️ 部署与基础设施</text>
+  <text x="770" y="351" text-anchor="middle" fill="#a5b4fc" font-size="10" font-weight="600">自托管</text>
+  <text x="770" y="366" text-anchor="middle" fill="#c9d1d9" font-size="9">Docker / NixOS / VPS</text>
+  <text x="770" y="380" text-anchor="middle" fill="#c9d1d9" font-size="9">树莓派 / Mac Mini</text>
+  <text x="770" y="394" text-anchor="middle" fill="#c9d1d9" font-size="9">Hetzner / DO / Vultr</text>
+  <text x="770" y="408" text-anchor="middle" fill="#c9d1d9" font-size="9">openclaw-ansible</text>
+  <line x1="690" y1="418" x2="850" y2="418" stroke="#30363d" stroke-width="1"/>
+  <text x="770" y="432" text-anchor="middle" fill="#a5b4fc" font-size="10" font-weight="600">托管服务</text>
+  <text x="770" y="447" text-anchor="middle" fill="#c9d1d9" font-size="9">ClawHost · Tinkerclaw</text>
+  <text x="770" y="461" text-anchor="middle" fill="#c9d1d9" font-size="9">DO 一键部署 · OC Launch</text>
+
+  <!-- 替代实现条 -->
+  <rect x="30" y="484" width="840" height="52" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1.5"/>
+  <text x="450" y="502" text-anchor="middle" fill="#8b949e" font-size="10" font-weight="600">🏗️ 替代实现</text>
+  <text x="105" y="522" text-anchor="middle" fill="#c9d1d9" font-size="9">ZeroClaw（Rust · 3.4MB）</text>
+  <text x="231" y="522" text-anchor="middle" fill="#c9d1d9" font-size="9">NanoClaw（Python · 沙盒）</text>
+  <text x="360" y="522" text-anchor="middle" fill="#c9d1d9" font-size="9">Moltis（Rust · 单二进制）</text>
+  <text x="480" y="522" text-anchor="middle" fill="#c9d1d9" font-size="9">PicoClaw（Go · &lt;10MB）</text>
+  <text x="607" y="522" text-anchor="middle" fill="#c9d1d9" font-size="9">Nanobot（Python · 4K行）</text>
+  <text x="730" y="522" text-anchor="middle" fill="#c9d1d9" font-size="9">NullClaw（Zig · 1MB）</text>
+  <text x="450" y="532" text-anchor="middle" fill="#484f58" font-size="7.5">MimiClaw（C · ESP32）· ClawGo（Go · 无头模式）· Carapace（合规优先）</text>
+
+  <!-- Agent 生态平台条 -->
+  <rect x="30" y="549" width="840" height="59" rx="8" fill="#0d1f1e" stroke="#0d9488" stroke-width="1.5"/>
+  <rect x="30" y="549" width="840" height="22" rx="8" fill="url(#ecoGrad)"/>
+  <rect x="30" y="561" width="840" height="10" fill="url(#ecoGrad)"/>
+  <text x="450" y="563" text-anchor="middle" fill="#fff" font-size="10" font-weight="700">🌍 Agent 生态系统与平台</text>
+  <text x="108" y="582" text-anchor="middle" fill="#99f6e4" font-size="9" font-weight="600">社交 / 动态</text>
+  <text x="108" y="596" text-anchor="middle" fill="#c9d1d9" font-size="9">Moltbook · Clawk</text>
+  <line x1="186" y1="573" x2="186" y2="603" stroke="#0f766e" stroke-width="1"/>
+  <text x="272" y="582" text-anchor="middle" fill="#99f6e4" font-size="9" font-weight="600">A2A 协议</text>
+  <text x="272" y="596" text-anchor="middle" fill="#c9d1d9" font-size="9">A2A 规范 · ACP 协议</text>
+  <line x1="358" y1="573" x2="358" y2="603" stroke="#0f766e" stroke-width="1"/>
+  <text x="450" y="582" text-anchor="middle" fill="#99f6e4" font-size="9" font-weight="600">任务市场</text>
+  <text x="450" y="596" text-anchor="middle" fill="#c9d1d9" font-size="9">AgentDo</text>
+  <line x1="542" y1="573" x2="542" y2="603" stroke="#0f766e" stroke-width="1"/>
+  <text x="641" y="582" text-anchor="middle" fill="#99f6e4" font-size="9" font-weight="600">安全</text>
+  <text x="641" y="596" text-anchor="middle" fill="#c9d1d9" font-size="9">SecureClaw · skill-guard · OWASP ASI</text>
+  <line x1="740" y1="573" x2="740" y2="603" stroke="#0f766e" stroke-width="1"/>
+  <text x="800" y="582" text-anchor="middle" fill="#99f6e4" font-size="9" font-weight="600">界面工具</text>
+  <text x="800" y="596" text-anchor="middle" fill="#c9d1d9" font-size="9">Studio · ClawDash</text>
+
+  <!-- 箭头 -->
+  <line x1="202" y1="152" x2="306" y2="165" stroke="#7c3aed" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arrowGray)"/>
+  <line x1="592" y1="165" x2="696" y2="165" stroke="#0891b2" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arrowGray)"/>
+  <line x1="450" y1="234" x2="450" y2="306" stroke="#059669" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arrowGray)"/>
+  <line x1="358" y1="234" x2="205" y2="306" stroke="#d97706" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arrowGray)"/>
+  <line x1="542" y1="234" x2="708" y2="306" stroke="#4f46e5" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arrowGray)"/>
+
+  <!-- 箭头标签 -->
+  <rect x="210" y="150" width="52" height="14" rx="3" fill="#1a0a2e"/>
+  <text x="236" y="161" text-anchor="middle" fill="#a78bfa" font-size="8">推理调用</text>
+  <rect x="596" y="154" width="46" height="14" rx="3" fill="#0a1a2a"/>
+  <text x="619" y="165" text-anchor="middle" fill="#7dd3fc" font-size="8">消息收发</text>
+  <rect x="452" y="260" width="38" height="14" rx="3" fill="#0a1a0a"/>
+  <text x="471" y="271" text-anchor="middle" fill="#6ee7b7" font-size="8">调用执行</text>
+  <rect x="222" y="267" width="52" height="14" rx="3" fill="#1a1000"/>
+  <text x="248" y="278" text-anchor="middle" fill="#fcd34d" font-size="8">读写记忆</text>
+  <rect x="590" y="267" width="46" height="14" rx="3" fill="#0a0a2a"/>
+  <text x="613" y="278" text-anchor="middle" fill="#a5b4fc" font-size="8">运行于</text>
+</svg>

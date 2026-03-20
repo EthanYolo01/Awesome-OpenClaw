@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="ecosystem-map.svg" alt="OpenClaw 生态系统全景图" width="100%"/>
+<img src="ecosystem-map-cn.svg" alt="OpenClaw 生态系统全景图" width="100%"/>
 
 # 🦞 Awesome OpenClaw
 
