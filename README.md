@@ -182,6 +182,7 @@ docker run -d \
 - [Raspberry Pi Setup](https://www.raspberrypi.com/news/turn-your-raspberry-pi-into-an-ai-agent-with-openclaw/) — Runs on Pi 4 4GB+
 - [Mac Mini as Home Server](https://docs.openclaw.ai/zh-CN/install/macos-vm) — Highly recommended homelab
 - [Ansible Playbook](https://github.com/openclaw/openclaw-ansible) — Automated secure installation with Tailscale VPN, UFW firewall and Docker isolation
+- [claw-army/claude-node](https://github.com/claw-army/claude-node) — Python subprocess bridge for Claude Code CLI, giving Python code direct access to Claude Code native capabilities via stream-json.
 
 ---
 
