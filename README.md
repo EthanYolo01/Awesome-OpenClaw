@@ -405,6 +405,12 @@ openclaw skill remove steipete/slack
 | `perplexity-search` | Deep web search via Perplexity API |
 | `supermemory` | External memory layer backed by Supermemory.ai |
 
+**Social Media:**
+
+| Skill | What it does | When to use it |
+|---|---|---|
+| [`tweetclaw`](https://github.com/Xquik-dev/tweetclaw) | Full X/Twitter automation — 120 endpoints for tweets, replies, likes, follows, DMs, extractions, and giveaway draws | When you need X/Twitter read/write from your agent; reads from $0.00015/call via Xquik API |
+
 ### Skills by Category
 For the full categorized index of 5,400+ vetted skills:
 ➡️ [**VoltAgent/awesome-openclaw-skills**](https://github.com/VoltAgent/awesome-openclaw-skills) — 1M+ monthly views, the #1 community skills resource.
