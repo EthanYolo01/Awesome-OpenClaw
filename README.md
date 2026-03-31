@@ -466,6 +466,7 @@ openclaw mcp add --local /path/to/my-mcp-server --name local-tools
 | [postgres-mcp](https://github.com/crystaldba/postgres-mcp) | Database | Read-only PostgreSQL access |
 | [slack-mcp](https://mcp.slack.com) | Comms | Official Slack MCP |
 | [gmail-mcp](https://gmail.mcp.claude.com) | Email | Gmail via MCP |
+| [ToolRouter](https://toolrouter.com) | Multi-tool | One gateway to 150+ tools for AI agents. One API key replaces managing dozens of provider accounts. Includes SEO, screenshots, web search, image generation, video, security scanning, and more. Works with ChatGPT, Claude, Cursor. Growing daily. `npx -y toolrouter-mcp` |
 
 Browse 13,000+ MCP servers at [mcp.so](https://mcp.so) or the [official MCP server directory](https://github.com/modelcontextprotocol/servers).
 
