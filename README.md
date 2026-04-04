@@ -684,6 +684,7 @@ The `cron-backup` skill automates this on a schedule and optionally uploads to S
 | [Graphiti](https://github.com/getzep/graphiti) | Temporal knowledge graph memory | Complex relational knowledge over time |
 | [MemOS](https://github.com/MemTensor/MemOS) | Hierarchical memory OS for LLM agents | Research-grade memory architecture |
 | [mem0](https://github.com/mem0ai/mem0) | Self-improving personalized memory | Personalization-heavy workflows |
+| [memory-lancedb-pro](https://github.com/CortexReach/memory-lancedb-pro) | Enhanced LanceDB plugin — hybrid retrieval (vector + BM25), cross-encoder reranking, multi-scope isolation, long-context chunking, management CLI | High-recall memory with advanced retrieval |
 
 ### Memory Best Practices
 

@@ -676,6 +676,7 @@ tar -xzf openclaw-backup-20260315.tar.gz -C ~/openclaw-data/
 | [Graphiti](https://github.com/getzep/graphiti) | 时序知识图谱记忆 | 长时间跨度的复杂关联知识 |
 | [MemOS](https://github.com/MemTensor/MemOS) | 层级式 LLM Agent 记忆操作系统 | 研究级记忆架构 |
 | [mem0](https://github.com/mem0ai/mem0) | 自我改进的个性化记忆层 | 个性化程度要求高的工作流 |
+| [memory-lancedb-pro](https://github.com/CortexReach/memory-lancedb-pro) | OpenClaw 增强版 LanceDB 记忆插件——向量+BM25 混合检索、交叉编码器重排序、多作用域隔离、长上下文分块、管理 CLI | 需要高召回率与高级检索的记忆场景 |
 
 ### 记忆最佳实践
 
