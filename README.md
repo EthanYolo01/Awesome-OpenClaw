@@ -684,6 +684,7 @@ The `cron-backup` skill automates this on a schedule and optionally uploads to S
 | [Graphiti](https://github.com/getzep/graphiti) | Temporal knowledge graph memory | Complex relational knowledge over time |
 | [MemOS](https://github.com/MemTensor/MemOS) | Hierarchical memory OS for LLM agents | Research-grade memory architecture |
 | [mem0](https://github.com/mem0ai/mem0) | Self-improving personalized memory | Personalization-heavy workflows |
+| [memory-lancedb-pro](https://github.com/CortexReach/memory-lancedb-pro) | Enhanced LanceDB plugin — hybrid retrieval (vector + BM25), cross-encoder reranking, multi-scope isolation, long-context chunking, management CLI | High-recall memory with advanced retrieval |
 
 ### Memory Best Practices
 
@@ -848,6 +849,7 @@ n8n is a visual workflow automation tool for non-technical users. OpenClaw is a 
 | [ACP — Agent Communication Protocol](https://agentcommunicationprotocol.dev/) | Open agent interoperability protocol designed to address the growing challenge of connecting AI agents, applications and more |
 | [agent-team-orchestration skill](https://clawhub.ai/community/agent-team-orchestration) | Multi-agent teams with roles, tasks, handoffs, review |
 | [agentgate skill](https://clawhub.ai/community/agentgate) | API gateway with human-in-the-loop write approval |
+| [openclaw-a2a-gateway](https://github.com/win4r/openclaw-a2a-gateway) | A2A v0.3.0 protocol plugin for OpenClaw — bio-inspired routing, mDNS discovery, circuit breaker, DevTools CLI. 486 tests |
 
 ---
 
@@ -918,6 +920,7 @@ n8n is a visual workflow automation tool for non-technical users. OpenClaw is a 
 | [ClawGo](https://github.com/openclaw/clawgo) | Go | Headless, voice + text, embedded Linux |
 | [MimiClaw](https://github.com/memovai/mimiclaw) | C | ESP32 microcontroller version |
 | [Carapace](https://github.com/carapace-sh/carapace) | Various | Governance/compliance first |
+| [ClawTeam-OpenClaw](https://github.com/win4r/ClawTeam-OpenClaw) | Python | OpenClaw-native multi-agent orchestration — intent-based prompts, Boids emergent coordination, circuit breaker, cost dashboard, per-agent model resolution |
 
 ---
 
