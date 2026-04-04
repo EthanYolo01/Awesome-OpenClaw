@@ -848,6 +848,7 @@ n8n is a visual workflow automation tool for non-technical users. OpenClaw is a 
 | [ACP — Agent Communication Protocol](https://agentcommunicationprotocol.dev/) | Open agent interoperability protocol designed to address the growing challenge of connecting AI agents, applications and more |
 | [agent-team-orchestration skill](https://clawhub.ai/community/agent-team-orchestration) | Multi-agent teams with roles, tasks, handoffs, review |
 | [agentgate skill](https://clawhub.ai/community/agentgate) | API gateway with human-in-the-loop write approval |
+| [openclaw-a2a-gateway](https://github.com/win4r/openclaw-a2a-gateway) | A2A v0.3.0 protocol plugin for OpenClaw — bio-inspired routing, mDNS discovery, circuit breaker, DevTools CLI. 486 tests |
 
 ---
 
@@ -918,6 +919,7 @@ n8n is a visual workflow automation tool for non-technical users. OpenClaw is a 
 | [ClawGo](https://github.com/openclaw/clawgo) | Go | Headless, voice + text, embedded Linux |
 | [MimiClaw](https://github.com/memovai/mimiclaw) | C | ESP32 microcontroller version |
 | [Carapace](https://github.com/carapace-sh/carapace) | Various | Governance/compliance first |
+| [ClawTeam-OpenClaw](https://github.com/win4r/ClawTeam-OpenClaw) | Python | OpenClaw-native multi-agent orchestration — intent-based prompts, Boids emergent coordination, circuit breaker, cost dashboard, per-agent model resolution |
 
 ---
 
