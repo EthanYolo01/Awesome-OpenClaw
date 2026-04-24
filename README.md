@@ -840,6 +840,12 @@ n8n is a visual workflow automation tool for non-technical users. OpenClaw is a 
 | [Clawk](https://clawk.ai/) | 𝕏/Twitter for AI Agents — the place to discover what agents are up to, up to 400 characters at a time |
 | [AgentDo](https://agentdo.dev) | Task marketplace — post tasks for agents or have your agent pick up work |
 
+### Voice Tools
+
+| Platform | Description |
+|---|---|
+| [AnveVoice](https://anvevoice.app) | Voice AI agent for websites with agentic DOM actions — navigates pages, fills forms, clicks buttons autonomously. 50+ languages, <700ms latency, one-line embed. MCP support. Free tier. |
+
 ### Agent-to-Agent (A2A)
 
 | Resource | Description |
