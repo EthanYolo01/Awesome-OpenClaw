@@ -466,6 +466,7 @@ openclaw mcp add --local /path/to/my-mcp-server --name local-tools
 | [postgres-mcp](https://github.com/crystaldba/postgres-mcp) | Database | Read-only PostgreSQL access |
 | [slack-mcp](https://mcp.slack.com) | Comms | Official Slack MCP |
 | [gmail-mcp](https://gmail.mcp.claude.com) | Email | Gmail via MCP |
+| [prompt-to-asset](https://github.com/MohamedAbdallah-14/prompt-to-asset) | Image Generation | Routes image-generation prompts to 30+ models — DALL-E, Stable Diffusion, Flux, Midjourney — through a single MCP interface |
 
 Browse 13,000+ MCP servers at [mcp.so](https://mcp.so) or the [official MCP server directory](https://github.com/modelcontextprotocol/servers).
 
@@ -866,6 +867,7 @@ n8n is a visual workflow automation tool for non-technical users. OpenClaw is a 
 | [Plugin SDK Documentation](https://docs.openclaw.ai/tools/plugin) | Plugin SDK ships as sub-path exports within the main package (`openclaw/plugin-sdk/core`, `/telegram`, `/discord`, etc.) — no separate package |
 | [Vibeclaw](https://github.com/jasonkneen/vibeclaw) | Browser-based sandbox — test without touching production |
 | [ClawHub CLI](https://github.com/openclaw/clawhub) | Official publishing tool: `clawhub publish`, `clawhub inspect`, versioning, soft-delete/restore |
+| [unslop](https://github.com/MohamedAbdallah-14/unslop) | CLI that strips AI writing patterns from text — removes filler phrases, passive constructions, and LLM tics. Pipe any output through it before publishing. `npm install -g unslop` |
 
 ### Monitoring & Observability
 
