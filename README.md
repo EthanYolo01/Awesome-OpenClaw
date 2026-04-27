@@ -497,6 +497,7 @@ Browse 13,000+ MCP servers at [mcp.so](https://mcp.so) or the [official MCP serv
 |---|---|---|
 | [OpenClaw iOS App](https://docs.openclaw.ai/platforms/ios) | iOS | **Internal preview — not yet publicly released.** Connects to Gateway via WebSocket (LAN or tailnet); exposes node capabilities: canvas, screenshot, camera capture, location, call mode, voice wake. Receives `node.invoke` commands and reports node status events |
 | [OpenClaw Android Node](https://docs.openclaw.ai/platforms/android) | Android | Official Android platform docs; community APK build at [openclaw-android-node-apk](https://github.com/bighamx/openclaw-android-node-apk) |
+| [Onepilot](https://onepilotapp.com) | iOS / iPadOS | SSH client that deploys, runs, and chats with OpenClaw agents on a remote machine. Also supports Hermes, Claude Code, and Codex CLI |
 
 ---
 
