@@ -487,6 +487,7 @@ Browse 13,000+ MCP servers at [mcp.so](https://mcp.so) or the [official MCP serv
 
 | Tool | Platform | Description |
 |---|---|---|
+| [lucinate-ai/lucinate](https://github.com/lucinate-ai/lucinate) | Cross-platform (Linux, macOS, Windows) | Terminal-native TUI chat client for OpenClaw, Hermes, and OpenAI-compatible endpoints |
 | [OpenClaw for macOS](https://docs.openclaw.ai/platforms/macos) | macOS | Menu bar companion app; manages/connects to local Gateway and exposes macOS capabilities as nodes to the agent |
 | [OpenClaw Manager](https://github.com/miaoxworld/openclaw-manager) | macOS / Windows | Desktop chat interface with visual file management |
 | [OpenClaw Windows Hub](https://github.com/openclaw/openclaw-windows-node) | Windows | Windows companion suite for OpenClaw (AI personal assistant) |
