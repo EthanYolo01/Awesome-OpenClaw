@@ -59,6 +59,9 @@
 - [🗺️ Related Awesome Lists](#️-related-awesome-lists)
 - [🤝 Contributing](#-contributing)
 
+
+- [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor): Real-time monitoring dashboard for OpenClaw agents — tracks Gateway status, sessions, token usage, and message trends. Vue 3 + ECharts.
+
 ---
 
 ## 🏁 Start Here — What is OpenClaw?
