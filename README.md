@@ -534,6 +534,7 @@ Browse 13,000+ MCP servers at [mcp.so](https://mcp.so) or the [official MCP serv
 | [Tinkerclaw](https://tinkerclaw.com) | ~$49/month | Full onboarding support + OpenClaw Manager |
 | [OpenClaw Launch](https://openclawlaunch.com) | ~$20/month | Simple managed + pre-configured skills |
 | [DigitalOcean 1-Click](https://marketplace.digitalocean.com/apps/openclaw) | $12/month | Self-hosted but fast; full root access |
+| [RapidClaw](https://rapidclaw.dev) | $29/month | Non-technical operators — no Docker, SSH, or API key juggling |
 
 ### Self-Hosted: Docker Compose
 
