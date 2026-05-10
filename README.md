@@ -466,6 +466,7 @@ openclaw mcp add --local /path/to/my-mcp-server --name local-tools
 | [postgres-mcp](https://github.com/crystaldba/postgres-mcp) | Database | Read-only PostgreSQL access |
 | [slack-mcp](https://mcp.slack.com) | Comms | Official Slack MCP |
 | [gmail-mcp](https://gmail.mcp.claude.com) | Email | Gmail via MCP |
+| [notfair](https://notfair.co) | Marketing | Hosted Google Ads MCP — diagnose, recommend, and execute campaign changes via the Google Ads API |
 
 Browse 13,000+ MCP servers at [mcp.so](https://mcp.so) or the [official MCP server directory](https://github.com/modelcontextprotocol/servers).
 
