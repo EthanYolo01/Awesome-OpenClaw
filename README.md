@@ -730,6 +730,7 @@ openclaw secureclaw harden
 | Tool | Description |
 |---|---|
 | [skill-guard](https://clawhub.ai/jamesOuttake/skill-guard) | Scan ClawHub skills for security vulnerabilities before installing — detects prompt injection, malware payloads, hardcoded keys and other threats |
+| [APort Agent Guardrails](https://github.com/aporthq/aport-agent-guardrails) | Pre-action authorization guardrails that check AI agent tool calls and sensitive actions against policy before execution |
 | [agent-audit-trail skill](https://clawhub.ai/community/agent-audit-trail) | Tamper-evident hash-chained action logging |
 | [agent-access-control skill](https://clawhub.ai/community/agent-access-control) | Tiered access control per user/channel |
 
