@@ -382,6 +382,7 @@ openclaw skill remove steipete/slack
 | `agentmail` | AI email triage, auto-replies, LLM-driven inbox management | 30–50% inbox time reduction (reported) |
 | `notion-direct` | Bidirectional Notion sync | Best knowledge management integration |
 | `obsidian-direct` | Reads/writes Obsidian vault directly | For Markdown-native PKM users |
+| `before-you-build` | Pressure-tests a product idea, landing page, MVP, or feature before implementation | Useful for builders who want the agent to challenge demand, positioning, monetization, retention, and distribution risk before coding |
 | `google-calendar` | Full calendar management, natural language | "Book a meeting Tuesday afternoon" just works |
 | `linear` | Create, update, triage Linear issues via chat | Essential for engineering teams |
 | `github-mcp` | Full GitHub integration via MCP | PR reviews, issue management, code search |
