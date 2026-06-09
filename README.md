@@ -732,6 +732,7 @@ openclaw secureclaw harden
 | [skill-guard](https://clawhub.ai/jamesOuttake/skill-guard) | Scan ClawHub skills for security vulnerabilities before installing — detects prompt injection, malware payloads, hardcoded keys and other threats |
 | [agent-audit-trail skill](https://clawhub.ai/community/agent-audit-trail) | Tamper-evident hash-chained action logging |
 | [agent-access-control skill](https://clawhub.ai/community/agent-access-control) | Tiered access control per user/channel |
+| [iClaw](https://github.com/iclawapp/iclaw) | Local-first AI workspace — files run in isolated containers before touching your machine. Detects credential theft, malware, and exfiltration. npm: `@iclawapp/iclaw` | [GitHub](https://github.com/iclawapp/iclaw) |
 
 ### Secure Deployment: Nginx Reverse Proxy
 
