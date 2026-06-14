@@ -466,6 +466,7 @@ openclaw mcp add --local /path/to/my-mcp-server --name local-tools
 | [postgres-mcp](https://github.com/crystaldba/postgres-mcp) | Database | Read-only PostgreSQL access |
 | [slack-mcp](https://mcp.slack.com) | Comms | Official Slack MCP |
 | [gmail-mcp](https://gmail.mcp.claude.com) | Email | Gmail via MCP |
+| [VideoOverlayKit](https://github.com/alichherawalla/video-overlay-kit) | Video | Renders 4-6s animated b-roll overlay mp4s for LinkedIn / IG Reels / YouTube Shorts / TikTok; agent writes the scene spec from a script. Remotion + Tabler + Lottie. MIT, local. |
 
 Browse 13,000+ MCP servers at [mcp.so](https://mcp.so) or the [official MCP server directory](https://github.com/modelcontextprotocol/servers).
 
