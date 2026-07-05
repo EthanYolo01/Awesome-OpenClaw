@@ -409,6 +409,7 @@ openclaw skill remove steipete/slack
 For the full categorized index of 5,400+ vetted skills:
 ➡️ [**VoltAgent/awesome-openclaw-skills**](https://github.com/VoltAgent/awesome-openclaw-skills) — 1M+ monthly views, the #1 community skills resource.
 
+- **[Context Kit](https://github.com/JDDavenport/context-kit)** — Personal Context Artifacts: 4 Markdown templates (wiki, mental-models, voice, protocols) + 5 Claude Code skills. Solves context amnesia — every session starts context-full. MIT, one-command install.
 ### Building Your Own Skills
 
 A skill is a `SKILL.md` file. Minimum viable skill:
