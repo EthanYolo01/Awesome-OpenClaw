@@ -880,6 +880,7 @@ n8n is a visual workflow automation tool for non-technical users. OpenClaw is a 
 |---|---|
 | [ClawRouter](https://github.com/BlockRunAI/ClawRouter) | Agent-native LLM router supporting 41+ models, sub-1ms routing latency, USDC payments via x402 on Base and Solana |
 | [Model Router](https://clawhub.ai/MrJootta/model-router-premium) | Routes model requests based on configured models, costs and task complexity — general/low-complexity requests to the cheapest available model, higher-complexity to stronger models |
+| [RouterBase Agent Skills](https://github.com/zenlee123/routerbase-agent-skills) | Agent skills for using [routerbase](https://routerbase.com/) as an OpenAI-compatible gateway: migrate API calls, plan model routing/fallbacks, and run media generation workflows |
 
 ---
 
