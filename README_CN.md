@@ -868,6 +868,7 @@ n8n 是面向非技术用户的可视化工作流自动化工具；OpenClaw 是�
 |---|---|
 | [ClawRouter](https://github.com/BlockRunAI/ClawRouter) | Agent 原生 LLM 路由器，支持 41+ 模型，路由延迟低于 1 毫秒，支持通过 x402 在 Base 和 Solana 上进行 USDC 支付 |
 | [Model Router](https://clawhub.ai/MrJootta/model-router-premium) | 根据配置的模型、成本和任务复杂度自动路由请求——简单/低复杂度任务路由到最便宜的模型，高复杂度任务路由到更强的模型 |
+| [RouterBase Agent Skills](https://github.com/zenlee123/routerbase-agent-skills) | 面向 [routerbase](https://routerbase.com/) 的 Agent Skills：迁移 OpenAI-compatible API 调用、规划模型路由/故障回退，并接入图片、视频、音频生成工作流 |
 
 ---
 
