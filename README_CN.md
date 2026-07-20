@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![PRs Welcome](https://img.shields.io/badge/PRs-欢迎提交-brightgreen.svg?style=flat-square)](CONTRIBUTING.md)
 [![License: CC0-1.0](https://img.shields.io/badge/许可证-CC0_1.0-lightgrey.svg?style=flat-square)](https://creativecommons.org/publicdomain/zero/1.0/)
-[![最近更新](https://img.shields.io/badge/最近更新-2026年3月-blue?style=flat-square)](https://github.com/openclaw/awesome-openclaw/commits/main)
+[![最近更新](https://img.shields.io/badge/最近更新-2026年3月-blue?style=flat-square)](https://github.com/EthanYolo01/Awesome-OpenClaw/commits/main)
 [![链接检查](https://img.shields.io/github/actions/workflow/status/EthanYolo01/Awesome-OpenClaw/link-checker.yml?label=链接状态&style=flat-square)](https://github.com/EthanYolo01/Awesome-OpenClaw/actions)
 [![Stars](https://img.shields.io/github/stars/EthanYolo01/Awesome-OpenClaw?style=flat-square)](https://github.com/EthanYolo01/Awesome-OpenClaw/stargazers)
 [![贡献者](https://img.shields.io/github/contributors/EthanYolo01/Awesome-OpenClaw?style=flat-square)](https://github.com/EthanYolo01/Awesome-OpenClaw/graphs/contributors)
@@ -406,6 +406,7 @@ openclaw skill remove steipete/slack
 | `arxiv-search` | 搜索并摘要 arXiv 论文 |
 | `perplexity-search` | 通过 Perplexity API 进行深度网络搜索 |
 | `supermemory` | 基于 Supermemory.ai 的外部记忆层 |
+| [`tweetclaw`](https://github.com/Xquik-dev/tweetclaw) | 通过 Xquik 搜索公开的 X/Twitter 内容，并使用需明确启用的发布工具 |
 
 ### 按分类浏览 Skill
 5,400+ 经审核 Skill 的完整分类索引：

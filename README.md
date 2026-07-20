@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg?style=flat-square)](https://creativecommons.org/publicdomain/zero/1.0/)
-[![Last Updated](https://img.shields.io/badge/last%20updated-March%202026-blue?style=flat-square)](https://github.com/openclaw/awesome-openclaw/commits/main)
+[![Last Updated](https://img.shields.io/badge/last%20updated-March%202026-blue?style=flat-square)](https://github.com/EthanYolo01/Awesome-OpenClaw/commits/main)
 [![Link Check](https://img.shields.io/github/actions/workflow/status/EthanYolo01/Awesome-OpenClaw/link-checker.yml?label=links&style=flat-square)](https://github.com/EthanYolo01/Awesome-OpenClaw/actions)
 [![Stars](https://img.shields.io/github/stars/EthanYolo01/Awesome-OpenClaw?style=flat-square)](https://github.com/EthanYolo01/Awesome-OpenClaw/stargazers)
 [![Contributors](https://img.shields.io/github/contributors/EthanYolo01/Awesome-OpenClaw?style=flat-square)](https://github.com/EthanYolo01/Awesome-OpenClaw/graphs/contributors)
@@ -404,6 +404,7 @@ openclaw skill remove steipete/slack
 | `arxiv-search` | Search and summarize arXiv papers |
 | `perplexity-search` | Deep web search via Perplexity API |
 | `supermemory` | External memory layer backed by Supermemory.ai |
+| [`tweetclaw`](https://github.com/Xquik-dev/tweetclaw) | Search public X/Twitter content and use opt-in publishing tools through Xquik |
 
 ### Skills by Category
 For the full categorized index of 5,400+ vetted skills:
