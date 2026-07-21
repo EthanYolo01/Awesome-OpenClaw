@@ -481,6 +481,7 @@ Browse 13,000+ MCP servers at [mcp.so](https://mcp.so) or the [official MCP serv
 | [vibeclaw](https://github.com/jasonkneen/vibeclaw) | Browser-native interface — no local install | Test skills before production deploy |
 | [openclaw-ui](https://docs.openclaw.ai/web/control-ui) | Official WebChat + Control UI | Ships with core |
 | [ClawDash](https://clawdash.pro/) | OpenClaw agent interface | Advanced Next.js 15 UI boilerplate with 50+ components, modular layout and professional dashboard design |
+| [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor) | Token usage & session monitoring dashboard | Real-time usage tracking, 7-day trends, multi-model support |
 | [OpenClaw Directory](https://openclawdir.com/) | Community skill/tool catalog | Searchable, community-rated |
 
 ### Desktop Apps
