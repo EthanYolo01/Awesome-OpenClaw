@@ -498,6 +498,12 @@ Browse 13,000+ MCP servers at [mcp.so](https://mcp.so) or the [official MCP serv
 | [OpenClaw iOS App](https://docs.openclaw.ai/platforms/ios) | iOS | **Internal preview — not yet publicly released.** Connects to Gateway via WebSocket (LAN or tailnet); exposes node capabilities: canvas, screenshot, camera capture, location, call mode, voice wake. Receives `node.invoke` commands and reports node status events |
 | [OpenClaw Android Node](https://docs.openclaw.ai/platforms/android) | Android | Official Android platform docs; community APK build at [openclaw-android-node-apk](https://github.com/bighamx/openclaw-android-node-apk) |
 
+### Terminal (TUI)
+
+| Tool | Description | Key Feature |
+|---|---|---|
+| [lucinate](https://github.com/lucinate-ai/lucinate) | Multi-backend terminal AI chat client for OpenClaw, Hermes, Ollama, and OpenAI-compatible APIs | Reusable prompt routines, tool call cards, multi-agent switching, local agent skills |
+
 ---
 
 ## 🌐 Platform Channels & Messaging
