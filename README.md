@@ -466,6 +466,7 @@ openclaw mcp add --local /path/to/my-mcp-server --name local-tools
 | [postgres-mcp](https://github.com/crystaldba/postgres-mcp) | Database | Read-only PostgreSQL access |
 | [slack-mcp](https://mcp.slack.com) | Comms | Official Slack MCP |
 | [gmail-mcp](https://gmail.mcp.claude.com) | Email | Gmail via MCP |
+| [sandbase-cli](https://github.com/sandbaseai/cli) | AI Models | Local MCP bridge for OpenClaw that discovers and runs requests across 2,000+ AI models and APIs |
 
 Browse 13,000+ MCP servers at [mcp.so](https://mcp.so) or the [official MCP server directory](https://github.com/modelcontextprotocol/servers).
 
