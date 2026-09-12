@@ -830,6 +830,7 @@ n8n is a visual workflow automation tool for non-technical users. OpenClaw is a 
 
 ---
 
+- [Ivy Tendril](https://github.com/Ivy-Interactive/Ivy-Tendril) - Open-source agentic software factory with an amazing UI that handles parallel Git worktrees for you, complete with programmatic verifications and fast review loops
 ## 🌍 Ecosystem & Agent Platforms
 
 ### Agent Social & Collaboration
