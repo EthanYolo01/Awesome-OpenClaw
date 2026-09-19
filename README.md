@@ -470,6 +470,7 @@ openclaw mcp add --local /path/to/my-mcp-server --name local-tools
 Browse 13,000+ MCP servers at [mcp.so](https://mcp.so) or the [official MCP server directory](https://github.com/modelcontextprotocol/servers).
 
 ---
+| [Hyperconsciousness](https://github.com/louis030195/hyperconsciousness) | Memory | Developer-alpha local encrypted knowledge store; stdio access through mcporter requires a scoped, expiring grant |
 
 ## 🖥️ UIs & Companion Apps
 
