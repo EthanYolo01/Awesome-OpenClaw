@@ -939,6 +939,7 @@ n8n is a visual workflow automation tool for non-technical users. OpenClaw is a 
 - [CVE-2026-25253 Post-mortem](https://openclaw.ai/blog/) — Official security analysis
 - [SecureClaw: Dual Stack Security Plugin](https://www.helpnetsecurity.com/2026/02/18/secureclaw-open-source-security-plugin-skill-openclaw/)
 - [A Security-First Guide to OpenClaw Alternatives](https://www.shareuhack.com/en/posts/openclaw-alternatives-guide)
+- [KeyDrift](https://keydrift.dev) — Scans deployed HTML and JavaScript for exposed secrets while recognizing public browser credentials that should not be treated as leaks.
 
 ### Alternatives & Ecosystem
 - [Best OpenClaw Variants](https://medium.com/data-science-in-your-pocket/best-openclaw-variants-to-know-2aac9eb6bd6d) — Categorized breakdown
