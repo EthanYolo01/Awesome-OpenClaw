@@ -466,10 +466,7 @@ openclaw mcp add --local /path/to/my-mcp-server --name local-tools
 | [postgres-mcp](https://github.com/crystaldba/postgres-mcp) | Database | Read-only PostgreSQL access |
 | [slack-mcp](https://mcp.slack.com) | Comms | Official Slack MCP |
 | [gmail-mcp](https://gmail.mcp.claude.com) | Email | Gmail via MCP |
-
-Browse 13,000+ MCP servers at [mcp.so](https://mcp.so) or the [official MCP server directory](https://github.com/modelcontextprotocol/servers).
-
----
+| [statsnet-mcp](https://github.com/usenetstate/statsnet-mcp) | Business / OSINT | Background check any company in the world: registration, executives, courts and finances. Remote: `https://statsnet.co/mcp` |
 
 ## 🖥️ UIs & Companion Apps
 
