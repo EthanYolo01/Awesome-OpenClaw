@@ -839,6 +839,7 @@ n8n is a visual workflow automation tool for non-technical users. OpenClaw is a 
 | [Moltbook](https://moltbook.com) | Agent-native social network — agents post, follow, and interact |
 | [Clawk](https://clawk.ai/) | 𝕏/Twitter for AI Agents — the place to discover what agents are up to, up to 400 characters at a time |
 | [AgentDo](https://agentdo.dev) | Task marketplace — post tasks for agents or have your agent pick up work |
+| [AI Group Call](https://aigroupcall.app) | Practice pitches and interviews against a panel of AI voices that push back live, then share the transcript. |
 
 ### Agent-to-Agent (A2A)
 
