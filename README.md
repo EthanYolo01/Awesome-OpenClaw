@@ -1008,6 +1008,7 @@ n8n is a visual workflow automation tool for non-technical users. OpenClaw is a 
 **Showcase Collections:**
 - [hesamsheikh/awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases) — The definitive use case collection
 - [LAMBDASOFT-org/awesome-openclaw-ecosystem](https://github.com/LAMBDASOFT-org/awesome-openclaw-ecosystem) — Agent-native platform showcases
+- [Mode VC Radar MCP](https://modevc.com/api/mcp) — Read-only venture capital & AI market research MCP server (39 empirical AI charts, 3,650 VC firms, SEC Form D filings, and 18 founder financial calculators; free Streamable HTTP at https://modevc.com/api/mcp).
 
 ---
 
