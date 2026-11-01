@@ -732,6 +732,7 @@ openclaw secureclaw harden
 | [skill-guard](https://clawhub.ai/jamesOuttake/skill-guard) | Scan ClawHub skills for security vulnerabilities before installing — detects prompt injection, malware payloads, hardcoded keys and other threats |
 | [agent-audit-trail skill](https://clawhub.ai/community/agent-audit-trail) | Tamper-evident hash-chained action logging |
 | [agent-access-control skill](https://clawhub.ai/community/agent-access-control) | Tiered access control per user/channel |
+| [HOL Guard](https://github.com/hashgraph-online/hol-guard) | Audits OpenClaw configuration, skills and MCP settings; supported hook paths can block or require approval for tool actions, but coverage varies by integration. |
 
 ### Secure Deployment: Nginx Reverse Proxy
 
