@@ -866,6 +866,7 @@ n8n is a visual workflow automation tool for non-technical users. OpenClaw is a 
 | [Plugin SDK Documentation](https://docs.openclaw.ai/tools/plugin) | Plugin SDK ships as sub-path exports within the main package (`openclaw/plugin-sdk/core`, `/telegram`, `/discord`, etc.) — no separate package |
 | [Vibeclaw](https://github.com/jasonkneen/vibeclaw) | Browser-based sandbox — test without touching production |
 | [ClawHub CLI](https://github.com/openclaw/clawhub) | Official publishing tool: `clawhub publish`, `clawhub inspect`, versioning, soft-delete/restore |
+| [Ponder](https://github.com/Quinnod345/ponder) | Coverage-gated, multi-pass deliberative code review CLI and skill for OpenClaw (`ponder install --openclaw`, published on [ClawHub](https://clawhub.ai/Quinnod345/ponder)) |
 
 ### Monitoring & Observability
 
