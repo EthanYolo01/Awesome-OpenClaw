@@ -614,6 +614,7 @@ See [nix-openclaw](https://github.com/openclaw/nix-openclaw) for the community N
 | Tool | Description |
 |---|---|
 | [agent-access-control skill](https://clawhub.ai/community/agent-access-control) | Tiered access control — restrict which users trigger which actions |
+| [ControlClaw](https://github.com/madarco/controlclaw) | Open-source AI firewall that runs next to OpenClaw (`npx controlclaw up`): checks every request and MCP call against plain-English rules, keeps passwords and API keys on the firewall so the agent only holds placeholders, and holds risky actions for approval. One firewall can serve many agents |
 
 ### Multi-Tenancy Patterns
 
